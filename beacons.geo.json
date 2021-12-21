@@ -1,0 +1,119 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [26.833333, 39.7  ]
+     },
+     "properties": {
+     "name":"Ida",
+     "html":"Ida",
+     "tab": "Ida",
+     "lines":[281, 283],
+     "wikipedia":"https://en.wikipedia.org/wiki/Mount_Ida_(Turkey)"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [25.25, 39.916667  ]
+     },
+     "properties": {
+     "name":"Lemnos",
+     "html":"Lemnos",
+     "tab": "Lemnos",
+     "lines":[284],
+     "wikipedia":"https://en.wikipedia.org/wiki/Lemnos"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [ 24.326389, 40.157222  ]
+     },
+     "properties": {
+     "name":"Athos",
+     "html":"Athos",
+     "tab": "Athos",
+     "lines":[285],
+     "wikipedia":"https://en.wikipedia.org/wiki/Mount_Athos"
+     }
+   },
+   {
+     "type": "Feature",
+     "geometry": {
+        "type": "Point",
+        "coordinates":  [24, 38.5   ]
+     },
+     "properties": {
+     "name":"Macistus",
+     "html":"Macistus",
+     "tab": "Macistus",
+     "lines":[289],
+     "wikipedia":"https://en.wikipedia.org/wiki/Euboea"
+     }
+   },
+   {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [23.487, 38.465   ]
+    },
+    "properties": {
+    "name":"Messapion",
+    "html":"Messapion",
+    "tab": "Messapion",
+    "lines":[293],
+    "wikipedia":"https://en.wikipedia.org/wiki/Messapio"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [23.249167, 38.184167   ]
+    },
+    "properties": {
+    "name":"Cithaeron",
+    "html":"Cithaeron",
+    "tab": "Cithaeron",
+    "lines":[298],
+    "wikipedia":"https://en.wikipedia.org/wiki/Cithaeron"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [23.49, 37.73   ]
+    },
+    "properties": {
+    "name":"Aegyplanctus",
+    "html":"Aegyplanctus",
+    "tab": "Aegyplanctus",
+    "lines":[303],
+    "wikipedia":"https://en.wikipedia.org/wiki/Aegina"
+    } 
+   },
+   {
+        "type": "Feature",
+        "geometry": {
+           "type": "Point",
+           "coordinates":  [22.7575, 37.730278   ]
+        },
+        "properties": {
+        "name":"Arachnus",
+        "html":"Arachnus",
+        "tab": "Arachnus",
+        "lines":[309],
+        "wikipedia":"https://en.wikipedia.org/wiki/Mycenae"
+        }
+      }
+    ]
+ }
+ 

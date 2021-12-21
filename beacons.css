@@ -1,0 +1,28 @@
+h1 { font-family: Perpetua Titling;
+    font-size: 26px;
+    color:hsl(22, 88%, 50%);
+}
+
+p{
+    color:hsl(0, 0%, 0%);
+    font-family: Papyrus;
+    font-size: 13px
+}
+
+nav{ 
+    color:hsl(0, 0%, 0%);
+    font-family: Perpetua Titling;
+    font-size: 14px;
+
+}
+h2{
+    
+    font-family: Papyrus;
+    font-size: 18px;
+    color: hsl(22, 88%, 50%);
+}
+body, .leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background-color: #dad7d4;
+  }
+  
+  
