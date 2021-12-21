@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Clytaemestra's Dead Tech</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+    <link rel="stylesheet" href="leaflet.css" />
+  </head>
+  <body>
+    <div class="container">
+      <link rel="stylesheet" href="beacons.css" />
+      <h1>Old New Technologies: Clytaemestra's Beacons, c. 800 BCE</h1>
+      <div class="row">
+        <div class="col-md-4" id="speech">
+        
+          <p><b>CLYTAEMESTRA:</b><br>
+            Hephaestus, who cast forth the shining blaze from Ida.<br>
+            And beacon after beacon picking up the flare<br>
+            Carried it here: Ida to the Hermaean horn<br>
+            Of Lemnos, where it shone above the isle, and next<br>
+            The sheer rock face of Zeus on Athos caught it up;<br>
+            And plunging skyward to arch the shoulders of the sea<br>
+            The strength of the running flare in exultation,<br>
+            Pine timbers flaming into gold, like the sunrise,<br>
+            Brought the bright message to Macistus’ sentinel cliffs,<br>
+            Who, never slow nor in the carelessness of sleep<br>
+            Caught up, sent on his relay in the courier chain,<br>
+            And far across Euripus’ streams the beacon flare<br>
+            Carried to signal watchmen on Messapion.<br>
+            These took it again in turn, and heaping high a pile<br>
+            Of silvery brush flamed it to throw the message on.<br>
+            And the flare sickened never, but grown stronger yet<br>
+            Outleapt the river valley of Asopus like<br>
+            The very moon for shining, to Cithaeron’s scaur<br>
+            To waken the next station of the flaming post.<br>
+            These watchers, not contemptuous of the far-thrown blaze,<br>
+            Kindled another beacon vaster than commanded.<br>
+            The light leaned high above Gorgopis’ staring marsh,<br>
+            And striking Aegyplanctus’ mountaintop, drove on<br>
+            Yet one more relay, lest the flare die down in speed.<br>
+            Kindled once more with stintless heaping force, they send<br>
+            The beard of flame to hugeness, passing far beyond<br>
+            The promontory that gazes on the Saronic strait<br>
+            And flaming far, until it plunged at last to strike<br>
+            The steep rock of Arachnus near at hand, our watchtower.<br>
+            And thence there fell upon this house of Atreus’ sons<br>
+            The flare whose fathers mount to the Idaean beacon.
+            
+            </p>
+        </div>
+        <div class="col-md-8" id="places-sidebar">
+      <div id="beacons-map" class="map"></div>
+      <div id="content">
+        <nav id="nav-tabs" class="nav nav-pills mt-3">
+          <a class="nav-link active" href="#IDA" data-toggle="tab" role="tab">IDA</a>
+          <a class="nav-link" href="#LEMNOS" data-toggle="tab" role="tab">LEMNOS</a>
+          <a class="nav-link" href="#ATHOS" data-toggle="tab" role="tab">ATHOS</a>
+          <a class="nav-link" href="#MACISTUS" data-toggle="tab" role="tab">MACISTUS</a>
+          <a class="nav-link" href="#MESSAPION" data-toggle="tab" role="tab">MESSAPION</a>
+          <a class="nav-link" href="#CITHAERON" data-toggle="tab" role="tab">CITHAERON</a>
+          <a class="nav-link" href="#AEGYPLANCTUS" data-toggle="tab" role="tab">AEGYPLANCTUS</a>
+          <a class="nav-link" href="#ARACHNUS" data-toggle="tab" role="tab">ARACHNUS</a>
+        </nav>
+        <div class="tab-content p-3">
+          <section class="tab-pane active" id="IDA" role="tabpanel"> </section>
+          <section class="tab-pane" id="LEMNOS" role="tabpanel"> </section>
+          <section class="tab-pane" id="ATHOS" role="tabpanel"> </section>
+          <section class="tab-pane" id="MACISTUS" role="tabpanel"> </section>
+          <section class="tab-pane" id="MESSAPION" role="tabpanel"> </section>
+          <section class="tab-pane" id="CITHAERON" role="tabpanel"> </section>
+          <section class="tab-pane" id="AEGYPLANCTUS" role="tabpanel"> </section>
+          <section class="tab-pane" id="ARACHNUS" role="tabpanel"> </section>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.4.0/markdown-it.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it-footnote/3.0.1/markdown-it-footnote.js"></script>
+<script src="beacons.js"></script>
+
+
+  </body>
+</html>
